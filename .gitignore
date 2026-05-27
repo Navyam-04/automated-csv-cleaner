@@ -1,0 +1,31 @@
+# Virtual environments
+.venv/
+venv/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Secrets
+.env
+
+# Logs
+logs/*.log
+*.log
+
+# Editor files
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Generated outputs
+data/archive/*
+data/processed/*
+
+# Keep empty folders
+!data/archive/.gitkeep
+!data/processed/.gitkeep
